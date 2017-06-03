@@ -1,0 +1,80 @@
+body{
+	background-color: #A75767;
+	align-content: center;
+}
+#sticky-text:focus {
+  background-color:#9AD48E;
+}
+
+#lab{
+	background-color: #4EAE90;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#sticky-text {
+  background-color:lightgray;
+  border:none;
+  box-shadow:4px 4px 0px black;
+  box-sizing:border-box;
+  font-size: 20px;
+  font-weight:italic;
+  height:50px;
+  letter-spacing:2px;
+  outline:none;
+  text-indent:10px;
+  transition:background-color .5s;
+  width:calc(100% - 160px);
+}
+#para{
+	background-color:yellow;
+	width:30%;
+	height:200px;
+	box-shadow: 3px 3px 0px black;
+	font-size: 20px;
+  font-weight:italic;
+  text-indent:30px;
+  text-align: justify;
+
+}
+#para:hover{
+	background-color: white;
+}
+
+#delnote{
+background-color: red;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#editnote{
+background-color: purple;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#editnote:hover{
+	background-color: pink;
+}
+#delnote:hover{
+	background-color: orange;
+}
+
