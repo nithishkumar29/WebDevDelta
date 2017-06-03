@@ -11,12 +11,14 @@ document.getElementById("para").innerHTML = text;
 var del = document.createElement("BUTTON");
 del.setAttribute("id","delnote");
 del.setAttribute("onclick","rm()");
+del.setAttribute("title","Delete this note!");
 var x = document.createTextNode("X");
 del.appendChild(x);
 
 var edit = document.createElement("BUTTON");
 edit.setAttribute("id","editnote");
 edit.setAttribute("onclick","edit()");
+edit.setAttribute("title","Edit note!");
 var e = document.createTextNode("Edit");
 edit.appendChild(e);
 
@@ -34,6 +36,7 @@ function rm(){
 	alert("Are you sure?");
 	document.body.removeChild(para);
 	document.body.removeChild(btns);
+	document.getElementById("sticky-text").value = '';
 }
 var x = 1;
 function edit(){
